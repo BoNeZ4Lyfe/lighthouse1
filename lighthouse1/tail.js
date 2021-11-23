@@ -2,7 +2,7 @@
 const tail = function(newArr) {
   newArr = newArr.slice(1);
   return newArr;
-}
+};
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`Assertion Passed: ${actual} === ${expected}`);
