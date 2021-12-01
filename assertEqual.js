@@ -9,8 +9,4 @@ const assertEqual = function(actual, expected) {
 
 };
 
-// TEST CODE
-assertEqual("Mahad", "Mahad");
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(3, 3);
-assertEqual(4, 9);
+module.exports = assertEqual;
